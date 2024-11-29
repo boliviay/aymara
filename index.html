@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protección de Página</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <h2>Acceso Restringido</h2>
+            <form id="loginForm">
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" placeholder="Usuario" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                
+                <button type="submit">Entrar</button>
+                <p id="errorMessage" class="error-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <div id="pageContent" style="display: none;">
+        <h1>Bienvenido a la Página</h1>
+        <p>Este es el contenido de la página que estará protegido hasta que se inicie sesión correctamente.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
