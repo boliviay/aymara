@@ -15,3 +15,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         errorMessage.textContent = "Usuario o contraseña incorrectos.";
     }
 });
+ if (username === "william" && password === "william2024") {
+        loginModal.style.display = "none"; // Oculta el modal
+        pageContent.style.display = "block"; // Muestra el contenido
+    } else {
+        errorMessage.textContent = "Usuario o contraseña incorrectos.";
+    }
+});
