@@ -14,10 +14,4 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     } else {
         errorMessage.textContent = "Usuario o contraseña incorrectos.";
     }
-});   if (username === "willy" && password === "1234") {
-        loginModal.style.display = "none"; // Oculta el modal
-        pageContent.style.display = "block"; // Muestra el contenido
-    } else {
-        errorMessage.textContent = "Usuario o contraseña incorrectos.";
-    }
-})
+}); 
