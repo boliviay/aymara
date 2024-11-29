@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const loginModal = document.getElementById('loginModal');
 
     // Credenciales correctas
-    if (username === "admin" && password === "1234"),(username === "admin" && password === "1234") {
+    if (username === "admin" && password === "1234"),(username === "willy" && password === "1234") {
         loginModal.style.display = "none"; // Oculta el modal
         pageContent.style.display = "block"; // Muestra el contenido
     } else {
